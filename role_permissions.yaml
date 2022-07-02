@@ -1,0 +1,13 @@
+- grant:
+  grant_resource_name: "schema"
+  role_name: "${user_role_name}"
+  privilege:
+    - "MONITOR"
+    - "USAGE"
+    - "ADD SEARCH OPTIMIZATION"
+- grant:
+  grant_resource_name: "schema"
+  role_name: "${admin_role_name}"
+  privilege:
+    - "CREATE TABLE"
+    - "CREATE TAG"
